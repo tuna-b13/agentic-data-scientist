@@ -1,0 +1,33 @@
+# Virtual environments
+venv/
+Agentic/
+.venv/
+.env
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Pytest cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Runtime outputs
+outputs/
+agent_memory.json
+
+# Large datasets (download from source)
+data/*.csv
+!data/demo.csv
+!data/example_dataset.csv
